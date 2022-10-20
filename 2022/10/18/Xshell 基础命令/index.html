@@ -4,9 +4,28 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="我的第一篇博客, Hexo">
-    <meta name="description" content="imag&amp;#x2F;1.jpg
-">
+    <meta name="keywords" content="Xshell 基础命令, Hexo">
+    <meta name="description" content="Xshell 常用命令1.命令ls-列出文件
+
+
+指令
+说明
+
+
+
+ls
+查看当前目录下所以的文件
+
+
+ls a*
+查看当前目录下以a开头的所有文件
+
+
+ls -l *.doc
+查看当前目录下以.doc结尾的所有文件
+
+
+2.命令cp-复制">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -18,7 +37,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>我的第一篇博客 | Hexo</title>
+    <title>Xshell 基础命令 | Hexo</title>
     <link rel="icon" type="image/png" href="/xinjie99.github.io/favicon.png">
     
 
@@ -335,12 +354,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/xinjie99.github.io/medias/featureimages/16.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/xinjie99.github.io/medias/featureimages/21.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">我的第一篇博客</h1>
+                    <h1 class="description center-align post-title">Xshell 基础命令</h1>
                 </div>
             </div>
         </div>
@@ -397,7 +416,150 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>imag&#x2F;1.jpg</p>
+                <h1 id="Xshell-常用命令"><a href="#Xshell-常用命令" class="headerlink" title="Xshell 常用命令"></a>Xshell 常用命令</h1><h2 id="1-命令ls-列出文件"><a href="#1-命令ls-列出文件" class="headerlink" title="1.命令ls-列出文件"></a>1.命令ls-列出文件</h2><table>
+<thead>
+<tr>
+<th>指令</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>ls</td>
+<td>查看当前目录下所以的文件</td>
+</tr>
+<tr>
+<td>ls a*</td>
+<td>查看当前目录下以a开头的所有文件</td>
+</tr>
+<tr>
+<td>ls -l *.doc</td>
+<td>查看当前目录下以.doc结尾的所有文件</td>
+</tr>
+</tbody></table>
+<h2 id="2-命令cp-复制文件"><a href="#2-命令cp-复制文件" class="headerlink" title="2.命令cp-复制文件"></a>2.命令cp-复制文件</h2><table>
+<thead>
+<tr>
+<th>指令</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>cp afile afile.bak</td>
+<td>将afile文件复制为新文件afile.bak</td>
+</tr>
+<tr>
+<td>cp afile &#x2F;data&#x2F;app</td>
+<td>将文件afile从当前目录下复制到&#x2F;data&#x2F;app目录下</td>
+</tr>
+<tr>
+<td>cp * &#x2F;tmp</td>
+<td>将当前目录下的所有文件复制到tmp目录下</td>
+</tr>
+</tbody></table>
+<h2 id="3-命令mv-移动或重命名文件"><a href="#3-命令mv-移动或重命名文件" class="headerlink" title="3.命令mv-移动或重命名文件"></a>3.命令mv-移动或重命名文件</h2><table>
+<thead>
+<tr>
+<th>指令</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>mv afile bfile</td>
+<td>将afile文件重命名为bfile</td>
+</tr>
+<tr>
+<td>mv afile &#x2F;tmp</td>
+<td>将文件afile从当前目录下移到到&#x2F;tmp目录下</td>
+</tr>
+</tbody></table>
+<h2 id="4-命令rm-删除文件和目录"><a href="#4-命令rm-删除文件和目录" class="headerlink" title="4.命令rm-删除文件和目录"></a>4.命令rm-删除文件和目录</h2><table>
+<thead>
+<tr>
+<th>指令</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>rm -f afile</td>
+<td>删除文件afile</td>
+</tr>
+<tr>
+<td>rm *</td>
+<td>删除当前目录下所有为隐藏的文件</td>
+</tr>
+<tr>
+<td>rm -rf catalogue</td>
+<td>删除catalogue目录以及目录下包含的所有文件</td>
+</tr>
+<tr>
+<td>rm -i a*</td>
+<td>删除当前目录下所有以字母a开头的文件,并且删除时提示用户是否确认</td>
+</tr>
+</tbody></table>
+<h2 id="5-命令cd-切换目录"><a href="#5-命令cd-切换目录" class="headerlink" title="5.命令cd-切换目录"></a>5.命令cd-切换目录</h2><table>
+<thead>
+<tr>
+<th>指令</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>cd ~</td>
+<td>切换到主目录</td>
+</tr>
+<tr>
+<td>cd &#x2F;tmp</td>
+<td>切换到目录&#x2F;tmp</td>
+</tr>
+<tr>
+<td>cd dir</td>
+<td>切换到当前目录下的dir目录</td>
+</tr>
+<tr>
+<td>cd &#x2F;</td>
+<td>切换到跟目录</td>
+</tr>
+<tr>
+<td>cd ..</td>
+<td>切换到上一级目录</td>
+</tr>
+<tr>
+<td>cd ..&#x2F;..</td>
+<td>切换到上二级目录</td>
+</tr>
+</tbody></table>
+<h2 id="6-命令mkdir-创建目录"><a href="#6-命令mkdir-创建目录" class="headerlink" title="6.命令mkdir-创建目录"></a>6.命令mkdir-创建目录</h2><table>
+<thead>
+<tr>
+<th>指令</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>mkdir phots</td>
+<td>在当前目录中建立名为phots的目录</td>
+</tr>
+<tr>
+<td>mkdir -p this&#x2F;that&#x2F;phots</td>
+<td>在当前目录中建立多层目录</td>
+</tr>
+</tbody></table>
+<h2 id="7-命令find-查找文件"><a href="#7-命令find-查找文件" class="headerlink" title="7.命令find-查找文件"></a>7.命令find-查找文件</h2><table>
+<thead>
+<tr>
+<th>指令</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>find -name *.</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
 
                 
             </div>
@@ -424,7 +586,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://jie0629.github.io/xinjie99.github.io/xinjie99.github.io/2022/10/18/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/">https://jie0629.github.io/xinjie99.github.io/xinjie99.github.io/2022/10/18/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</a>
+                    <a href="https://jie0629.github.io/xinjie99.github.io/xinjie99.github.io/2022/10/18/Xshell%20%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/">https://jie0629.github.io/xinjie99.github.io/xinjie99.github.io/2022/10/18/Xshell%20%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -538,17 +700,18 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/xinjie99.github.io/2022/10/20/Xshell%20%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/">
+                <a href="/xinjie99.github.io/2022/10/18/Xshell%20%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/">
                     <div class="card-image">
                         
                         
-                        <img src="/xinjie99.github.io/medias/featureimages/0.jpg" class="responsive-img" alt="">
+                        <img src="/xinjie99.github.io/medias/featureimages/21.jpg" class="responsive-img" alt="Xshell 基础命令">
                         
-                        <span class="card-title"></span>
+                        <span class="card-title">Xshell 基础命令</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -558,9 +721,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-10-20
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-10-18
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -569,6 +732,7 @@
                         </span>
                     </div>
                 </div>
+
                 
             </div>
         </div>
